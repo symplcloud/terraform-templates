@@ -1,0 +1,4 @@
+*.tfstate
+vm/aws/.terraform/
+vm/gcp/.terraform/
+*.backup
