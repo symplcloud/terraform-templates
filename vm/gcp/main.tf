@@ -32,7 +32,11 @@ resource "google_compute_instance" "default" {
   # machine_type = "custom-2-4096"
   allow_stopping_for_update = true
 
-  metadata_startup_script = "echo hi > /test.txt"
+  # metadata_startup_script = "echo hi > /test.txt"
+
+  metadata = {
+    startup-script = file("startup-script")
+  }
 
   service_account {
     scopes = [

@@ -6,6 +6,6 @@ This repository provides terraform template files used to provision resources us
 
 - Terraform https://www.terraform.io/
 - AWS Credential https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-files.html
-- Azure Credential
-- GCP Credential
+- Azure Credential 
+- GCP Credential 
 
